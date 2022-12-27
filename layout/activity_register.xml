@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back01"
-    tools:context=".RegisterActivity">
-    
+    tools:context=".activities.RegisterActivity">
+
     <ImageButton
         android:id="@+id/backBtn"
         android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
             android:text="Create New Account"
             android:textColor="@color/white"
             android:fontFamily="sans-serif-condensed"
-            android:textSize="20sp"></TextView>
+            android:textSize="20sp" />
 
 
 
@@ -75,7 +75,7 @@
                     android:inputType="textPersonName|textCapWords"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/gray01"></EditText>
+                    android:textColorHint="@color/gray01" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -100,7 +100,7 @@
                     android:inputType="textEmailAddress"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/gray01"></EditText>
+                    android:textColorHint="@color/gray01" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -126,7 +126,7 @@
                     android:inputType="textPassword"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/gray01"></EditText>
+                    android:textColorHint="@color/gray01" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -151,7 +151,7 @@
                     android:inputType="textPassword"
                     android:padding="10dp"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/gray01"></EditText>
+                    android:textColorHint="@color/gray01" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -164,7 +164,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/shape_button01"
                 android:text="Register"
-                android:textColor="@color/white"></Button>
+                android:textColor="@color/white" />
 
 
         </RelativeLayout>
